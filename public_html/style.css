@@ -1,0 +1,39 @@
+body{
+  font-size: 16px;
+  font-family: verdana,sans-serif;
+
+}
+
+#container{
+  width:280px;
+  margin:30px auto;
+}
+
+form{
+  text-align: center;
+}
+
+input[type=text],
+input[type=password]{
+  padding:5px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.btn{
+  width: 100px;
+  padding: 7px;
+  border-radius: 5px;
+  color:white;
+  background-color: blue;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.err{
+  font-weight: bold;
+  color: red;
+  font-size: 13px;
+}
